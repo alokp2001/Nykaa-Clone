@@ -1,0 +1,1284 @@
+.b_1 {
+    background-color: rgb(234, 232, 232);
+    height: 162px;
+    color: brown;
+}
+
+.b_2 {
+    /* background-color: chocolate; */
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.item_cards {
+    /* background-color: aqua; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cards {
+    min-width: 475px;
+    margin: 16px;
+    height: 465px;
+    background-color: white;
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/f1.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/f2.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/f3.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/f4.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.card1_t {
+    position: absolute;
+    overflow: hidden;
+    bottom: 95px;
+    color: white;
+    padding: 15px 40px;
+}
+
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+.b3 {
+    width: 100%;
+}
+
+.b1_img {
+    /* min-width: 475px;/ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.b1_img img {
+    max-width: 1350px;
+    height: auto;
+    /* padding: 0px 45px; */
+}
+
+
+
+
+
+
+.b_4 {
+    margin: 15px 0px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.b4_a img {
+    /* margin: auto; */
+    width: 1440px;
+}
+.b4_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b4_1 {
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(243, 243, 243);
+}
+
+.b4_item_cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.b4_cards {
+    min-width: 415px;
+    margin: 16px;
+    height: 276px;
+    background-color: rgb(243, 243, 243);
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.b4_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b4b.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b4_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b4c.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b4_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b4a.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b4_card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b4d.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b4_card5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b4e.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b4_card6 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b4f.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.b4_card1_t {
+    /* display: flex; */
+    /* overflow: hidden; */
+    overflow: hidden;
+    position: absolute;
+    bottom: 15px;
+}
+
+button.prev1,
+button.next1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev1 {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next1 {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b_5 {
+    background-color: white;
+    width: 100%;
+}
+
+.b_5a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b_5a img {
+    width: 1440px;
+}
+
+.b5_1 {
+    /* background-color: chocolate; */
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b5_item_cards {
+    /* background-color: aqua; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+}
+
+.b5_cards {
+    min-width: 210px;
+    margin: 30px 5px;
+    height: 210px;
+    background-color: white;
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b5_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5a.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5b.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5c.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5d.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5e.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card6 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5f.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card7 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5g.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b5_card8 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b5h.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.b5_card1_t {
+    /* display: flex; */
+    /* overflow: hidden; */
+    overflow: hidden;
+    position: absolute;
+    bottom: -1px;
+}
+
+
+button.prev2,
+button.next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev2 {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next2 {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b_6 {
+    display: block;
+    margin: 20px 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.b6_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b6_a img {
+    width: 1440px;
+}
+
+
+
+
+
+
+
+.b6_1 {
+    /* background-color: chocolate; */
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(243, 243, 243);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b6_item_cards {
+    /* background-color: aqua; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.b6_cards {
+    min-width: 475px;
+    margin: 16px;
+    height: 465px;
+    background-color: rgb(243, 243, 243);
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b6_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b6a.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b6_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b6b.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b6_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b6c.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.b6_card1_t {
+    position: absolute;
+    bottom: 95px;
+    color: white;
+    padding: 15px 40px;
+}
+
+
+button.prev3,
+button.next3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev3 {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next3 {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+
+
+.b_7 {
+    width: 100%;
+}
+
+.b7_img {
+    /* min-width: 475px;/ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    margin: 23px 0px;
+}
+
+.b7_img img {
+    max-width: 1350px;
+    height: auto;
+    border-radius: 10px;
+    /* padding: 0px 45px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.b_8 {
+    margin: 15px 0px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.b8_a img {
+    /* margin: auto; */
+    width: 1440px;
+}
+.b8_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+.b8_1 {
+    /* background-color: chocolate; */
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b8_item_cards {
+    /* background-color: aqua; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.b8_cards {
+    min-width: 475px;
+    margin: 16px;
+    height: 465px;
+    background-color: white;
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b8_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b8a.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b8_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b8b.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b8_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b8c.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b8_card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b8d.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b8_card5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b8e.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+button.prev4,
+button.next4 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev4 {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next4 {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b_9 {
+    /* width: 100%; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b9_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    /* padding: 0px -20px; */
+    margin: 10px 50px;
+    position: relative;
+    right: 100px;
+}
+
+.b9_a {
+    /* background-color: brown; */
+    background-image: url('./slide imgs/b9a.avif');
+    background-size: cover;
+    background-position: center;
+    width: 225px;
+    height: 300px;
+}
+.b9_b {
+    /* background-color: brown; */
+    background-image: url('./slide imgs/b9b.avif');
+    background-size: cover;
+    background-position: center;
+    width: 225px;
+    height: 300px;
+}
+.b9_c {
+    /* background-color: brown; */
+    background-image: url('./slide imgs/b9.avif');
+    background-size: cover;
+    background-position: center;
+    width: 225px;
+    height: 300px;
+}
+.b9_d {
+    /* background-color: brown; */
+    background-image: url('./slide imgs/b9c.avif');
+    background-size: cover;
+    background-position: center;
+    width: 225px;
+    height: 300px;
+}
+.b9_e {
+    /* background-color: brown; */
+    background-image: url('./slide imgs/b9d.avif');
+    background-size: cover;
+    background-position: center;
+    width: 225px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b10_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.b10_a img {
+    max-width: 1350px;
+    height: auto;
+    margin: 15px 0px;
+}
+
+
+.b10_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 110px;
+    gap: 5px;
+}
+
+.b10_img1 {
+    width: 200px;
+    height: 135px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b10a.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b10_img2 {
+    width: 200px;
+    height: 135px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b10b.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b10_img3 {
+    width: 200px;
+    height: 135px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b10c.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b10_img4 {
+    width: 200px;
+    height: 135px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b10d.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b10_img5 {
+    width: 200px;
+    height: 135px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b10e.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b10_t {
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b11_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b11_a img {
+    max-width: 1350px;
+    height: auto;
+    margin: 15px 0px;
+}
+
+
+.b11_1 {
+    /* background-color: chocolate; */
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b11_item_cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.b11_cards {
+    min-width: 475px;
+    margin: 16px;
+    height: 465px;
+    background-color: white;
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden
+}
+
+
+.b11_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b11a.avif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.b11_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b11b.avif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.b11_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b11c.avif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.b11_card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b11d.avif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+button.prev5,
+button.next5 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev5 {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next5 {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b12_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.b12_a img {
+    max-width: 1350px;
+    height: auto;
+    margin: 15px 0px;
+}
+
+
+.b12_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 150px;
+    gap: 5px;
+}
+
+.b12_img1 {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b12a.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.b12_img2 {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b12b.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b12_img3 {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b12c.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b12_img4 {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b12d.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b12_img5 {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b12e.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b12_img6 {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    background-image: url('./slide imgs/b12f.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.b12_t {
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b13_1 {
+    /* background-color: chocolate; */
+    position: relative;
+    width: 100%;
+    max-width: 1365px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b13_item_cards {
+    /* background-color: aqua; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.b13_cards {
+    min-width: 300px;
+    margin: 16px;
+    height: 400px;
+    background-color: white;
+    /* background-image: url('./slide imgs/f1.avif'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.b13_card1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b13.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b13_card2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b13b.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b13_card3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b13c.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b13_card4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b13d.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b13_card5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b13e.avif');
+    background-size: cover;
+    background-position: center;
+}
+.b13_card6 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./slide imgs/b13f.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+button.prev6,
+button.next6 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev6 {
+    left: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    display: none;
+    /* Hide prev button initially */
+}
+
+button.next6 {
+    right: 10px;
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    
+}

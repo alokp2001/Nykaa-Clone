@@ -1,0 +1,126 @@
+/* ********** this is offer banner ********* */
+
+.top {
+    height: 40px;
+    display: block;
+    background-image: url("./img/strip.jpg");
+}
+
+.strip {
+    width: 1140px;
+    /* width: 71.25%; */
+    height: 40px;
+    margin: 0 auto;
+
+}
+
+.left {
+    
+    vertical-align: middle;
+    float: left;
+    width: 48%;
+    height: 40px;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    /* background-color: blueviolet */
+
+}
+
+.msg {
+    
+    margin: 9px 0px;
+    /* border: 2px solid red; */
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: white;
+    overflow: hidden;
+    /* animation: slide 5s infinite; */
+}
+
+.msg a {
+    
+    animation: slide 5s infinite;
+
+}
+
+.right {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 48%;
+    position: relative;
+    float: right;
+
+    /* display: inline-block; */
+}
+
+.right ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    float: right;
+}
+
+.right ul li {
+    display: inline-block;
+    margin: auto;
+    /* padding: 4px 10px; */
+}
+
+.right ul li a {
+    display: flex;
+    margin: auto;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.icon {
+    display: inline-block;
+    margin: auto;
+}
+
+.txt {
+    display: inline-block;
+    /* margin: 40px; */
+    /* margin: 0px 0px 0px 2px; */
+    padding: 6px;
+    /* padding: 0px -10px; */
+    /* margin: 0px - 10px; */
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.txt:hover {
+    color: black;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blink {
+    animation: blink 1.5s step-start infinite;
+}
+
+.msg a {
+    display: inline-block;
+    animation: blink 1.5s step-start infinite;
+}
+/* ********************* OFFER BANNER IS OVER HERE *************** */

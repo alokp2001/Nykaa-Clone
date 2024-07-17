@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ***************THIS IS HEADER PART START FROM HERE **************** */
+
+
+
+
+
+.head {
+    display: block;
+    padding: 0.5px;
+    /* width: 100vh; */
+    height: 162px;
+    /* position: relative; */
+    position: fixed;
+    /* background-color: gray; */
+    z-index: 1000;
+    width: 100%;
+
+}
+
+.mainhead {
+    box-shadow: 0 2px 3px 0 rgba(197, 38, 38, 0.1);
+}
+
+.main {
+    background-color: rgb(172, 172, 172);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.226);
+    /* position: absolute; */
+}
+
+
+
+
+
+
+
+/* *************** hides panel are starts here *********** */
+
+
+.nykaa {
+    display: none;
+    /* display: block; */
+    height: 535px;
+    width: 1150px;
+    margin: 0px -327px;
+    position: absolute;
+    background-color: white;
+}
+
+.l2 ul li:hover .nykaa {
+    display: block;
+} 
+
+
+.nykaa_1 {
+    display: flex;
+    height: 509px;
+    width: 1150px;
+    /* background-color: gray; */
+}
+
+.n_a {
+    height: 509px;
+    width: 180px;
+    background-color: white;
+    display: grid;
+}
+
+.na_ul {
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+}
+
+.na_ul_li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* text-decoration: none; */
+}
+
+.na_ul_li a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 200;
+}
+/* .n_a ul {
+    margin: o;
+    padding: 0;
+    display: inline-block;
+    background-color: aqua;
+} */
+
+/* .n_a li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .n_a ul li a {
+    display: block;
+    margin: 0;
+    padding: 0;
+} */
+
+.n_b {
+    height: 509px;
+    width: 180px;
+    background-color: rgb(214, 209, 211);
+    display: grid;
+}
+
+
+.n_c {
+    background-color: white;
+    width: 429px;
+}
+
+.nykka_img {
+    background-image: url('./slide imgs/nykka img.avif');
+    background-size: cover;
+    background-position: center;
+    width: 340px;
+    height: 380px;
+    margin: 20px 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.beauty {
+    display: none;
+    /* display: block; */
+    height: 265px;
+    width: 650px;
+    margin: 0px -260px;
+    position: absolute;
+    background-color: white;
+
+}
+
+.l2 ul li:hover .beauty {
+    display: block;
+} 
+
+.img1 {
+    display: block;
+    margin: 10px 15px;
+    
+}
+.img1 a img {
+    width: 300px;
+    height: 180px;
+
+}
+
+.img2 {
+    display: block;
+    margin: 10px 0px;
+    
+}
+.img2 a img {
+    width: 300px;
+    height: 180px;
+
+}
+
+.b_a {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************** third layer start here ************ */
+
+
+.last {
+    margin: 1px 0px;
+    height: 50px;
+    background-color: white;
+}
+
+.t1 {
+    display: flex;
+    background-color:white;
+    width: 1150px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.t1_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t1_ul_li {
+    display: inline-block;
+    /* background-color: blueviolet; */
+}
+
+.t1_ul_li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 0px 25px;
+    
+}
+
+.t1_ul_li a:hover {
+    color: #E80071;
+}
+

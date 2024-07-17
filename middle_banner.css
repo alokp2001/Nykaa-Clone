@@ -1,0 +1,152 @@
+/* ************************MIDDLE BANER IS START FROM HERE ************* */
+
+.middle {
+    height: 67px;
+    background-color: white;
+    display: block;
+}
+
+.stripb {
+    height: 67px;
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.l1 {
+    background-color: white;
+}
+
+.l1 img {
+    height: 28px;
+    margin: 15px 3px;
+    align-items: center;
+}
+
+.l2 {
+    height: 67px;
+    width: 650px;
+    background-color: white;
+}
+
+/* .l2 ul {
+    display: flex;
+    padding: 0;
+    float: left;
+} */
+
+.l2a {
+    display: flex;
+    padding: 0;
+    float: left;
+}
+
+
+/* .l2 ul li {
+    display: inline-block;
+    padding: 25px 16px;
+} */
+
+
+.l2a_li {
+    display: inline-block;
+    padding: 25px 16px;
+}
+
+/* .l2 ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+} */
+
+.l2a_li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.l2 ul li a:hover {
+    color: rgb(248, 77, 105);
+}
+
+.searchbtn {
+    width: 246px;
+    height: 43px;
+    margin: 10px 0px;
+    border-radius: 2px;
+    border: none;
+}
+
+.searchicon {
+
+    position: relative;
+    float: left;
+}
+
+.searchicon img {
+    width: 24px;
+    height: 24px;
+}
+
+.input {
+    border: none;
+    padding: 0px 2px;
+    position: relative;
+    float: left;
+}
+
+.input input {
+    height: 28px;
+    padding: 0px 20px;
+    border: none;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.l3 {
+    height: 67px;
+    width: 250px;
+}
+
+.l4 {
+    height: 67px;
+    width: 188px;
+    display: flex;
+    position: relative;
+    padding: 10px;
+
+}
+
+.su {
+    position: relative;
+    float: left;
+}
+
+.su button {
+    border-color: #E80071;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #E80071;
+    color: white;
+}
+
+.shopicon {
+    margin: 7px 50px;
+    position: relative;
+    float: right;
+}
